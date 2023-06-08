@@ -1,0 +1,40 @@
+@import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css");
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  scroll-behavior: smooth;
+  list-style: none;
+  text-decoration: none;
+}
+/* NAVBAR SECTION */
+.navbar {
+  background: #eae3d7 !important;
+  box-shadow: 0 0 10px #111111;
+  font-family: "Poppins", sans-serif;
+}
+
+/* MAIN SECTION */
+.inputs{
+  display: flex;
+  flex-direction: column;
+  justify-content: start;
+  align-items: center;
+  width: 100%;
+  min-height: 100vh;
+  background: linear-gradient(#f3f0f0, #fffefe);
+  font-family: "Poppins", sans-serif;
+}
+
+/* FOOTER SECTION */
+.footer {
+  background: #eae3d7 !important;
+  box-shadow: 0 0 6px #111111;
+  font-family: "Poppins", sans-serif;
+}
+
+.footer>i {
+  margin-left: 5px !important;
+}
