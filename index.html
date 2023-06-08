@@ -13,25 +13,35 @@
 
 <body>
   <!-- NAVBAR SECTION -->
-
-  <nav class="navbar navbar-expand-lg bg-body-tertiary">
+  <nav class="navbar bg-body-tertiary">
     <div class="container-fluid">
-      <a class="navbar-brand" href="index.html">Market Bazar</a>
-      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-        <span class="navbar-toggler-icon"></span>
+      <a class="navbar-brand">Market Bazar</a>
+      <button class="btn float-end btn-cart" data-bs-toggle="offcanvas" data-bs-target="#offcanvas" role="button"
+        id="btnTop">
+        <i class="fa-solid fa-cart-shopping"></i>
       </button>
-      <div class="collapse navbar-collapse" id="navbarNav">
-        <ul class="navbar-nav">
-          <li class="nav-item">
-            <a class="nav-link active" aria-current="page" href="index.html">Home</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="dettagli.html">Product</a>
-          </li>
-        </ul>
-      </div>
+      <form class="d-flex" role="search">
+        <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+        <button class="btn btn-outline-success" type="submit">Search</button>
+      </form>
     </div>
   </nav>
+  
+  <!-- SIDEBAR CART -->
+  <!-- <div class="offcanvas offcanvas-start w-25 bg-dark" data-bs-theme="dark" tabindex="-1" id="offcanvas" data-bs-keyboard="false" data-bs-backdrop="false">
+    <div class="offcanvas-header">
+        <h6 class="offcanvas-title d-none d-sm-block" id="offcanvas">Cart</h6>
+        <button type="button" class="btn-close text-reset" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+    </div>
+    <div class="offcanvas-body px-0">
+        <div class="d-flex justify-content-between">
+            <p class="totale"> TOTAL €<span class="totCarrello"></span></p>
+            <button class="btn-cestino mb-2 bg-dark" data-bs-theme="dark" onclick="trashCan()"><i class="fa-solid fa-trash-can me-4 pe-3"></i></button>           
+        </div>
+        <ul id="listaCarrello">
+        </ul>           
+    </div>
+</div> -->
 
   <!-- INPUTS SECTION -->
   <div class="create-box inputs">
